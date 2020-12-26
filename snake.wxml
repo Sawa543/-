@@ -1,0 +1,28 @@
+<!--pages/snake/snake.wxml-->
+<view class="control" bindtouchstart="tapStart"
+bindtouchmove="tapMove" bindtouchend="tapEnd">
+<!-- 得分框 -->
+  <view class="title">手指在屏幕上滑动以开始游戏</view>
+  <view class="score">
+    <view class="scoredetail">
+      <view class="scoredesc">得分</view>
+      <view class="scorenumber">{{score}}</view>
+    </view>
+    <view class="scoredetail">
+      <view class="scoredesc">历史最高</view>
+      <view class="scorenumber">{{maxscore}}</view>
+    </view>
+  </view>
+<!-- 游戏界面 -->
+  <view class="ground">
+    <view class="rows" wx:for="{{ground}}" wx:for-item="cols">
+      <view wx:for="{{cols}}" class="block block_{{item}}"></view>
+    </view>
+  </view>
+<!-- 游戏结束页面 -->
+  <modal class="modal" hidden="{{modalHidden}}" no-cancel
+  bindconfirm="modalConfirm">
+    <view>游戏结束，需要重新开始嘛？</view>
+  </modal>
+</view>
+

@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="main">
+  <view class="abc1">欢迎体验本款贪吃蛇小游戏</view>
+  <view class="abc1">祝您玩得愉快！</view>
+  <view class="abc2">游戏说明</view>
+  <view class="abc3">1.手指在屏幕上滑动来确定小蛇的移动方向</view>
+  <view class="abc3">2.吃到食物的小蛇长度会增加1，分数加10</view>
+  <view class="abc3">3.注意小蛇不能碰到四周的墙壁，蛇头也不能碰到蛇身</view>
+
+</view>
+
+

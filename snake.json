@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00ff00",
+    "navigationBarTitleText": "贪吃蛇",
+    "navigationBarTextStyle":"black"
+  }
+}

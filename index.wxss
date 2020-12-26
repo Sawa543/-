@@ -1,0 +1,30 @@
+/**index.wxss**/
+.main{
+  font-size:50rpx;
+}
+.abc1{
+  border:5rpx solid white;
+  text-align: center;
+  width:720rpx;
+  height:100rpx;
+  line-height: 100rpx;
+}
+.abc2{
+  border:5rpx solid white;
+  width:720rpx;
+  height:100rpx;
+  line-height: 100rpx;
+  color:#0078D7;
+}
+.abc3{
+  border:5rpx solid white;
+  font-size:30rpx;
+  width:730rpx;
+  height:100rpx;
+  line-height: 100rpx;
+  color:#0078D7;
+}
+.abc3:last-child{
+  margin-bottom: 300rpx;
+}
+
